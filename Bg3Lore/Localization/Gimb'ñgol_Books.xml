@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+
+	<content contentuid="GIMB_BookOneTitle" version="1">Myself</content>
+	<content contentuid="GIMB_BookOne_Content" version="1">I am severed. Alone. I do not know who I was before I was myself. 
+
+	I do not know who gave their life that I may be here. I cannot hear the others. I am alone.
+
+	Why do the creatures I see, grovel at my feet? What creature twisted them so? I am alone, even as they praise myself in an unknown tongue.
+
+	I cannot stay here. I am not the myself they see me as. I am in danger. I will flee to the mountain tonight. Perhaps my solitude will shield me.</content>
+
+	<content contentuid="GIMB_BookeTwoTitle" version="1">Mountain</content>	
+	<content contentuid="GIMB_BookTwo_Content" version="1">I write this down that another like myself may not feel alone. I found some spellbooks and some paper along the way to this refuge of mine, taken from a traveler with an open head. I do not remember what happened. 
+		
+	The mountain is quiet. It is decently well hidden. I will write this with my blood.
+
+	I need to find food. I keep remembering the traveler with the open head. My organs tremble with the thought. Dare I consume them? Had I already consumed them, would I know? The mind reels.
+
+	A few hours have passed since my last script. I went back to the traveler and I... I ate her. All that she was in life, I have now preserved after her death. 
+
+	I... or someone that looks like me... killed her. I do not remember the deed. I do not know how long she laid there; bleeding, heart desperately pumping blood to a brain that did not hear it, could not feel it, would not know it. How do you mourn? How do you mourn, even knowing her as I do? Her voice can echo in my thoughts at my command, yet? 
+
+	Can I take away a future and an agency like that? Is that... correct? Why do I not remember it? I must chew on this. No double meaning intended.</content>
+	
+	<!--Template-->
+	<content contentuid="NEWHANDLE1" version="1">TITLE HERE</content>	
+	<content contentuid="NEWHANDLE2" version="1">TEXT HERE</content>	
+	<!--COPY THIS AND EDIT-->
+
+
+</contentList>

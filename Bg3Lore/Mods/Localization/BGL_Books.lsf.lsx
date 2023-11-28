@@ -75,16 +75,6 @@
           <attribute id="Stub" type="bool" value="False"/>
         </node>        
 
-        <!--EMPTY TEMPLATE-->
-        <node id="TranslatedStringKey">
-          <attribute id="Content" type="TranslatedString" handle="" value=""/>
-          <attribute id="UUID" type="FixedString" value="BGL_Book_A"/>
-          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
-          <attribute id="ExtraData" type="LSString" value=""/>
-          <attribute id="Stub" type="bool" value="False"/>
-        </node>   
-        <!--EMPTY TEMPLATE-->
-
         <!--EXAMPLE TEMPLATE-->
         <node id="TranslatedStringKey">
           <attribute id="Content" type="TranslatedString" handle="NEWHANDLE2" value=""/>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="330" lslib_meta="v1,bswap_guids"/>
+  <region id="Templates">
+    <node id="Templates">
+      <children>
+        <node id="GameObjects">
+          <attribute id="MapKey" type="FixedString" value="598a8622-5c3b-4adf-8adf-8f09c38dc471"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="hd6183f5cg6d4dg4ee3gac43g7c82ed8d538a" version="1"/>
+          <attribute id="Name" type="LSString" value="GTZ_Circles_D"/>
+          <attribute id="LevelName" type="FixedString" value=""/>
+          <attribute id="Type" type="FixedString" value="item"/>
+          <attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336"/>
+          <attribute id="ReadinessFlags" type="uint32" value="12"/>
+          <attribute id="VisualTemplate" type="FixedString" value="2b6edf0d-5ddc-0f16-b13c-c97b553a2518"/>
+          <children>
+            <node id="Bounds">
+              <children>
+                <node id="Bound">
+                  <attribute id="Type" type="uint8" value="1"/>
+                  <attribute id="Shape" type="uint8" value="1"/>
+                  <attribute id="Min" type="fvec3" value="-0.536167 -0.0410083 -0.304595"/>
+                  <attribute id="Max" type="fvec3" value="0.536167 0.111889 0.30139"/>
+                  <attribute id="Radius" type="float" value="0.312969"/>
+                  <attribute id="Height" type="float" value="0.18436"/>
+                </node>
+                <node id="Bound">
+                  <attribute id="Type" type="uint8" value="2"/>
+                  <attribute id="Shape" type="uint8" value="1"/>
+                  <attribute id="Min" type="fvec3" value="-0.536167 -0.0410083 -0.304595"/>
+                  <attribute id="Max" type="fvec3" value="0.536167 0.111889 0.30139"/>
+                  <attribute id="Radius" type="float" value="0.312969"/>
+                  <attribute id="Height" type="float" value="0.18436"/>
+                </node>
+                <node id="Bound">
+                  <attribute id="Type" type="uint8" value="0"/>
+                  <attribute id="Shape" type="uint8" value="1"/>
+                  <attribute id="Min" type="fvec3" value="-0.2680835 -0.0410083 -0.1522975"/>
+                  <attribute id="Max" type="fvec3" value="0.2680835 0.111889 0.150695"/>
+                  <attribute id="Radius" type="float" value="0.1564845"/>
+                  <attribute id="Height" type="float" value="0.18436"/>
+                </node>
+              </children>
+            </node>
+            <node id="OnUsePeaceActions">
+              <children>
+                <node id="Action">
+                  <attribute id="ActionType" type="int32" value="11"/>
+                  <children>
+                    <node id="Attributes">
+                      <attribute id="Animation" type="FixedString" value=""/>
+                      <attribute id="Conditions" type="LSString" value=""/>
+                      <attribute id="BookId" type="FixedString" value="GTZ_Circles_D"/>
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+            <node id="OnDestroyActions">
+              <children>
+                <node id="Action">
+                  <attribute id="ActionType" type="int32" value="26"/>
+                  <children>
+                    <node id="Attributes">
+                      <attribute id="Animation" type="FixedString" value=""/>
+                      <attribute id="Conditions" type="LSString" value=""/>
+                      <attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3"/>
+                      <attribute id="PlayOnHUD" type="bool" value="False"/>
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

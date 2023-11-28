@@ -3,17 +3,22 @@ Expanding the scope of the Forgotten Realms lore that is seen in BG3
 
 HOW TO ADD A BOOK
 
+
+
+
 In your copy of the templates replace any occurrence of the words inside ' '. These should be replaced with your unique value/uuid/handle/name etc
 
 In oder to add a book you need
     
-    Loca file
+    YOUR PERSONAL AUTHOR Loca file
         
-        An entry inside BgLoreEng.loca.xml for your Book Title 'NEWHANDLE1'- This will be displayed while the book is on the ground and highlighted as well
+        A personal file for your authored books if you do not have one (copy from DUPE_AND_RENAME.loca.xml) - BgLoreEng is just an example, SuhrasBooks.lsf.lsx is my author file
+
+        An entry inside YOURAUTHOR.loca.xml  for your Book Title 'NEWHANDLE1'- This will be displayed while the book is on the ground and highlighted as well
         
-        An entry inside BgLoreEng.loca.xml for your Book's Text Content 'NEWHANDLE2'- This is what we see when we 'use' the book
+        An entry inside YOURAUTHOR.loca.xml for your Book's Text Content 'NEWHANDLE2'- This is what we see when we 'use' the book
     
-    Root Template
+    Root Template -Inside your own folder for organization
         
         A copy of the template to edit (new file which needs to be renamed DO NOT FORGET TO RE-ADD THE .LSF for multitool conversion)
 
@@ -53,4 +58,5 @@ In oder to add a book you need
 
         An entry in any teasure table you wish to have you book drop from
             object category "I_BOOKNAME" ,1,0,0,0,0,0,0,0
+
           

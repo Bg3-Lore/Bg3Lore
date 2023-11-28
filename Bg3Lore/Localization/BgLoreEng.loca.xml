@@ -32,4 +32,13 @@
 	<content contentuid="h33a65dc7gcb9eg49d6g9d77gfdc23c57faff" version="1">Around 1492 DR long after Stardock was abandoned and left derelict the asteroid outpost was glaimed by Al'chaia, a Githyanki commander, and her troops. They seized this prime location and converted it into a crèche where young Githyanki were trained prior to their departure to the Astral Plane. After the demise of Al'chaia Stardock fell under the command of Urlon, who built it into a trading and transport hub for the region, leaving it open to many creatures and races.</content>	
 
 
+
+	<!--Head start, be kind and add more after you use templates-->
+	
+	<!--COPY THIS AND EDIT-->
+	<content contentuid="NEWHANDLE1" version="1">TITLE HERE</content>	
+	<content contentuid="NEWHANDLE2" version="1">TEXT HERE</content>	
+	<!--COPY THIS AND EDIT-->
+
+
 </contentList>

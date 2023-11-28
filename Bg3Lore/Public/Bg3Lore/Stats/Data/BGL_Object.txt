@@ -88,6 +88,7 @@ data "MinAmount" "1"
 data "MaxAmount" "1"
 data "Priority" "1"
 
+//Template book
 new entry "BOOKNAME"
 type "Object"
 using "OBJ_Book"
@@ -97,3 +98,15 @@ data "MinAmount" "1"
 data "MaxAmount" "1"
 data "Priority" "1"
 
+//Head start, be kind and add more after you use templates
+
+//COPY ME AND EDIT
+new entry "BOOKNAME"
+type "Object"
+using "OBJ_Book"
+data "RootTemplate" "NEWUUID1"
+data "ObjectCategory" "BGL_BOOK"
+data "MinAmount" "1"
+data "MaxAmount" "1"
+data "Priority" "1"
+//COPY ME AND EDIT

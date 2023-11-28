@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="3" minor="0" revision="0" build="0" lslib_meta="v1,bswap_guids"/>
+  <region id="TranslatedStringKeys">
+    <node id="TranslatedStringKeys">
+      <children>
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="h5f70bb37g9548g4c86g8ef8ga61134408a2e" value=""/>
+          <attribute id="UUID" type="FixedString" value="GTZ_Circles_A"/>
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node>
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="hbb70cf61g7100g4390ga685g11c1b1319823" value=""/>
+          <attribute id="UUID" type="FixedString" value="GTZ_Circles_B"/>
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node>
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="h62cc5111gf6d6g4364g8192ge91f2f49ae3d" value=""/>
+          <attribute id="UUID" type="FixedString" value="GTZ_Circles_C"/>
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node>
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="haac43791gaf4ag4b2cgb3cdga91587612cde" value=""/>
+          <attribute id="UUID" type="FixedString" value="GTZ_Circles_D"/>
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node>
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="h5a67e43eg67ffg4f43g930eg9e9ea1ae4959" value=""/>
+          <attribute id="UUID" type="FixedString" value="GTZ_MenyarBook_A"/>
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node>        
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="h09e762acg92bag4f6eg826ag816be8b330e1" value=""/>
+          <attribute id="UUID" type="FixedString" value="GTZ_Alhoons_Book"/>
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node>        
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="h58fa079dg5116g4fe4g8266g022d09e628ef" value=""/>
+          <attribute id="UUID" type="FixedString" value="GTZ_Priamon_Book"/>
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node>      
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="ha447176dgb362g419ega436g084bee69dad4" value=""/>
+          <attribute id="UUID" type="FixedString" value="GTZ_Stardock_A"/>
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node>            
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="heb467c9dgad0eg45bbg9177gb64642f5e65f" value=""/>
+          <attribute id="UUID" type="FixedString" value="GTZ_Stardock_B"/>
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node>   
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="h33a65dc7gcb9eg49d6g9d77gfdc23c57faff" value=""/>
+          <attribute id="UUID" type="FixedString" value="GTZ_Stardock_D"/>
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node>        
+
+
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="" value=""/>
+          <attribute id="UUID" type="FixedString" value="BGL_Book_A"/>
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node>  
+        <!--EXAMPLE TEMPLATE-->
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="NEWHANDLE2" value=""/>
+          <attribute id="UUID" type="FixedString" value="BOOKNAME"/> <!-- EX : GTZ_Stardock_D, BGL_Book_A Used inside root template for book-->
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node> 
+
+	    <!--Head start, be kind and add more after you use templates-->
+	    
+        <!--COPY THIS AND EDIT-->
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="NEWHANDLE2" value=""/>
+          <attribute id="UUID" type="FixedString" value="BOOKNAME"/> <!-- EX : GTZ_Stardock_D, BGL_Book_A Used inside root template for book-->
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node> 
+        <!--COPY THIS AND EDIT-->    
+
+
+      </children>
+    </node>
+  </region>
+</save>

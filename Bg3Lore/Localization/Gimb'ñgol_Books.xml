@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
-
 	<content contentuid="GIMB_BookOneTitle" version="1">Myself</content>
 	<content contentuid="GIMB_BookOne_Content" version="1">I am severed. Alone. I do not know who I was before I was myself. 
 
@@ -23,10 +22,21 @@
 
 	Can I take away a future and an agency like that? Is that... correct? Why do I not remember it? I must chew on this. No double meaning intended.</content>
 	
+	<content contentuid="GIMB_BookThreeTitle" version="1">Grief</content>	
+	<content contentuid="GIMB_BookThreeContent" version="1">Tear s blot this  ppage. In the  passt few days, my phi1osophical "chewing" has beenn pot on hold, not off  my own accord. I did not know thaat I possessedd the ability of crying, of feelingg this raws scraping against my soul. Day an dnight, I a mwraccked with a sorrrow that feels famil1ar and alIen, an aching lonelliness for a Llife IL do not remembber. I cannnot eat, cannot rest, cannot think- I can only cry out for my lovved onees that I never had, holding emmbraces from people Iive never knowwn, livess mixing and churning accross my mindd.
+
+	Someetimes I wakke up and I am nnot myself. After a ttime, thiss fadess, but is followed byy that hollow pang Ii've come too know so well..
+
+	Peeace. I nneed peacce. Someehow I musst find tthe peacee. 
+	<!--I know it looks like crytyping shut up, it's ulitharid tears blurring the letters-->
+	</content>	
+
+	<content contentuid="GIMB_BookFourTitle" version="1">Recognition</content>	
+	<content contentuid="GIMB_BookFourContent" version="1">
+		<!--Key points: Gimb begins to understand his pain. He starts to search for answers among the belongings from his famished feast, using her memories to assist his search. His questions surrounding his hunger for the minds of sentients begin to grow.-->
+	</content>
+
 	<!--Template-->
 	<content contentuid="NEWHANDLE1" version="1">TITLE HERE</content>	
 	<content contentuid="NEWHANDLE2" version="1">TEXT HERE</content>	
-	<!--COPY THIS AND EDIT-->
-
-
 </contentList>

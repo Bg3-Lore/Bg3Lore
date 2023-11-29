@@ -15,42 +15,6 @@ function _IDP(message)
 end
 
 
---[[ --- Generate items from a treasure table
---- Written by focus, yoinked
----@param treasureTable string Name of the TT
----@param target? string Who to give the content to
----@param level? integer level to use for the TT loot generation
----@param finder? string idk
----@param generateInBag? boolean if true will put the content into a bag
-function GenerateTreasureTable(treasureTable, target, level, finder, generateInBag)
-    local bag = generateInBag ~= false and Osi.CreateAt("3e6aac21-333b-4812-a554-376c2d157ba9", 0, 0, 0, 0, 0, "")
-    target = target or Osi.GetHostCharacter()
-
-    if level == nil then
-        if Osi.IsItem(target) == 1 then
-            level = -1
-        else
-            level = Osi.GetLevel(target)
-        end
-    end
-
-    if finder == nil then
-        if Osi.IsItem(target) == 1 then
-            finder = Osi.GetHostCharacter()
-        else
-            finder = target
-        end
-    end
-
-    if bag then
-        Osi.GenerateTreasure(bag, treasureTable, level, finder)
-        Osi.ToInventory(bag, target)
-    else
-        Osi.GenerateTreasure(target, treasureTable, level, finder)
-    end
-end ]]
-
-
 local commands = {
     {
         name = "GenerateTreasureTable",
@@ -63,10 +27,10 @@ local commands = {
             else
                 generateInBag = true
             end
-            _IDP("generateInBag: " .. tostring(generateInBag))
+            --_IDP("generateInBag: " .. tostring(generateInBag))
 
             local bag = generateInBag ~= false and Osi.CreateAt("3e6aac21-333b-4812-a554-376c2d157ba9", 0, 0, 0, 0, 0, "")
-            _IDP("bag: " .. tostring(bag))
+            --_IDP("bag: " .. tostring(bag))
             local level = tonumber(level)
 
             if string.lower(target) == "host" then
@@ -74,7 +38,7 @@ local commands = {
             else
                 target = target
             end
-            _IDP("target: " .. target)
+            --_IDP("target: " .. target)
 
             if level == nil then
                 if Osi.IsItem(target) == 1 then
@@ -83,15 +47,14 @@ local commands = {
                     level = Osi.GetLevel(target)
                 end
             end
-            _IDP("level: " .. level)
+            --_IDP("level: " .. level)
         
             if Osi.IsItem(target) == 1 then
                 finder = Osi.GetHostCharacter()
             else
                 finder = target
             end
-
-            _IDP("finder: " .. finder)
+            --_IDP("finder: " .. finder)
         
             if bag then
                 _IDP("Sending " .. treasureTable .. " in a bag to " .. target)

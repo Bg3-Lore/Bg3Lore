@@ -1,0 +1,9 @@
+TEMPLATES
+Add/Replace these from the default book template to have different world models and icons
+
+SINGLE SHEET:
+<attribute id="ParentTemplateId" type="FixedString" value="61b98c74-8f5c-4d05-b56c-0911b59c9078" />
+<attribute id="PhysicsTemplate" type="FixedString" value="94ca09da-30c5-43be-620e-caf0a979e543" />
+<attribute id="VisualTemplate" type="FixedString" value="3cb08750-dda6-47e4-5b18-7c191c21bae2"/>
+<attribute id="UnknownDescription" type="TranslatedString" handle="h207f51e2g3770g456fg9859ga8fd4482c74b" version="1" />
+<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Paper_Sheet_D" />

@@ -33,6 +33,13 @@ In oder to add a book you need
         
         OPTIONALLY a value between 0 and 8 for your BookType - This is the background image of the book
             <attribute id="BookType" type="uint8" value="8" />
+            
+            0: book
+            1: Sheet
+            2: Sheet Stack
+            3 and 4: Scroll
+            5-7: Tablet
+            8: Gith disc thing
     
     BGL_Books.lsf.lsx
 

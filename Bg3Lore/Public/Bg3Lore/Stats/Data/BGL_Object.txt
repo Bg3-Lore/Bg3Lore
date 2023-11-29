@@ -88,6 +88,15 @@ data "MinAmount" "1"
 data "MaxAmount" "1"
 data "Priority" "1"
 
+new entry "BOOK_Trips_Cress_01"
+type "Object"
+using "OBJ_Book"
+data "RootTemplate" "b4c0adf6-e1b2-4d67-8266-919152596c64"
+data "ObjectCategory" "BGL_DIARY"
+data "MinAmount" "1"
+data "MaxAmount" "1"
+data "Priority" "1"
+
 //Template book
 new entry "BOOKNAME"
 type "Object"

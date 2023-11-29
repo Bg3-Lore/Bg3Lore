@@ -57,7 +57,7 @@ local commands = {
         params = "treasureTable, target, level, finder, generateInBag",
         func = function(cmd, treasureTable, target, level, finder, generateInBag)
             local bag = generateInBag ~= false and Osi.CreateAt("3e6aac21-333b-4812-a554-376c2d157ba9", 0, 0, 0, 0, 0, "")
-            level = tonumber(level)
+            local level = tonumber(level)
 
             if target == "host" then
                 target = Osi.GetHostCharacter()

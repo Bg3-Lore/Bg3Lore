@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="330" lslib_meta="v1,bswap_guids"/>
+  <region id="Templates">
+    <node id="Templates">
+      <children>
+        <node id="GameObjects">
+          <attribute id="MapKey" type="FixedString" value="3bbc59b5-f6f9-479a-8009-8b734aea21b2"/> <!--Used in Objects.txt-->
+          <attribute id="DisplayName" type="TranslatedString" handle="GIMB_BookOne_Title" version="1"/> <!--Comes from our NEWHANDLE1 in loca-->
+          <attribute id="Name" type="LSString" value="GIMB_BookOne_Myself"/>
+          <attribute id="LevelName" type="FixedString" value=""/>
+          <attribute id="Type" type="FixedString" value="item"/>
+          <attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336"/>
+          <attribute id="ReadinessFlags" type="uint32" value="12"/>
+          <!--
+          OPTIONAL! Remove the comments or this whole section
+          book type enum goes from 0-8 list is inside readme
+          <attribute id="BookType" type="uint8" value="8" />
+          -->
+          <attribute id="VisualTemplate" type="FixedString" value="2b6edf0d-5ddc-0f16-b13c-c97b553a2518"/>
+          <children>
+            <node id="Bounds">
+              <children>
+                <node id="Bound">
+                  <attribute id="Type" type="uint8" value="1"/>
+                  <attribute id="Shape" type="uint8" value="1"/>
+                  <attribute id="Min" type="fvec3" value="-0.536167 -0.0410083 -0.304595"/>
+                  <attribute id="Max" type="fvec3" value="0.536167 0.111889 0.30139"/>
+                  <attribute id="Radius" type="float" value="0.312969"/>
+                  <attribute id="Height" type="float" value="0.18436"/>
+                </node>
+                <node id="Bound">
+                  <attribute id="Type" type="uint8" value="2"/>
+                  <attribute id="Shape" type="uint8" value="1"/>
+                  <attribute id="Min" type="fvec3" value="-0.536167 -0.0410083 -0.304595"/>
+                  <attribute id="Max" type="fvec3" value="0.536167 0.111889 0.30139"/>
+                  <attribute id="Radius" type="float" value="0.312969"/>
+                  <attribute id="Height" type="float" value="0.18436"/>
+                </node>
+                <node id="Bound">
+                  <attribute id="Type" type="uint8" value="0"/>
+                  <attribute id="Shape" type="uint8" value="1"/>
+                  <attribute id="Min" type="fvec3" value="-0.2680835 -0.0410083 -0.1522975"/>
+                  <attribute id="Max" type="fvec3" value="0.2680835 0.111889 0.150695"/>
+                  <attribute id="Radius" type="float" value="0.1564845"/>
+                  <attribute id="Height" type="float" value="0.18436"/>
+                </node>
+              </children>
+            </node>
+            <node id="OnUsePeaceActions">
+              <children>
+                <node id="Action">
+                  <attribute id="ActionType" type="int32" value="11"/>
+                  <children>
+                    <node id="Attributes">
+                      <attribute id="Animation" type="FixedString" value=""/>
+                      <attribute id="Conditions" type="LSString" value=""/>
+                      <attribute id="BookId" type="FixedString" value="GIMB_BookOne_Myself"/> <!--Comes from our BGL_Books.lsf-->
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+            <node id="OnDestroyActions">
+              <children>
+                <node id="Action">
+                  <attribute id="ActionType" type="int32" value="26"/>
+                  <children>
+                    <node id="Attributes">
+                      <attribute id="Animation" type="FixedString" value=""/>
+                      <attribute id="Conditions" type="LSString" value=""/>
+                      <attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3"/>
+                      <attribute id="PlayOnHUD" type="bool" value="False"/>
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+        <node id="GameObjects">
+          <attribute id="MapKey" type="FixedString" value="a29a04d2-0f7d-487d-ad5f-c45c56b20bc4"/> <!--Used in Objects.txt-->
+          <attribute id="DisplayName" type="TranslatedString" handle="GIMB_BookTwo_Title" version="1"/> <!--Comes from our NEWHANDLE1 in loca-->
+          <attribute id="Name" type="LSString" value="GIMB_BookTwo_Mountain"/>
+          <attribute id="LevelName" type="FixedString" value=""/>
+          <attribute id="Type" type="FixedString" value="item"/>
+          <attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336"/>
+          <attribute id="ReadinessFlags" type="uint32" value="12"/>
+          <!--
+          OPTIONAL! Remove the comments or this whole section
+          book type enum goes from 0-8 list is inside readme
+          <attribute id="BookType" type="uint8" value="8" />
+          -->
+          <attribute id="VisualTemplate" type="FixedString" value="2b6edf0d-5ddc-0f16-b13c-c97b553a2518"/>
+          <children>
+            <node id="Bounds">
+              <children>
+                <node id="Bound">
+                  <attribute id="Type" type="uint8" value="1"/>
+                  <attribute id="Shape" type="uint8" value="1"/>
+                  <attribute id="Min" type="fvec3" value="-0.536167 -0.0410083 -0.304595"/>
+                  <attribute id="Max" type="fvec3" value="0.536167 0.111889 0.30139"/>
+                  <attribute id="Radius" type="float" value="0.312969"/>
+                  <attribute id="Height" type="float" value="0.18436"/>
+                </node>
+                <node id="Bound">
+                  <attribute id="Type" type="uint8" value="2"/>
+                  <attribute id="Shape" type="uint8" value="1"/>
+                  <attribute id="Min" type="fvec3" value="-0.536167 -0.0410083 -0.304595"/>
+                  <attribute id="Max" type="fvec3" value="0.536167 0.111889 0.30139"/>
+                  <attribute id="Radius" type="float" value="0.312969"/>
+                  <attribute id="Height" type="float" value="0.18436"/>
+                </node>
+                <node id="Bound">
+                  <attribute id="Type" type="uint8" value="0"/>
+                  <attribute id="Shape" type="uint8" value="1"/>
+                  <attribute id="Min" type="fvec3" value="-0.2680835 -0.0410083 -0.1522975"/>
+                  <attribute id="Max" type="fvec3" value="0.2680835 0.111889 0.150695"/>
+                  <attribute id="Radius" type="float" value="0.1564845"/>
+                  <attribute id="Height" type="float" value="0.18436"/>
+                </node>
+              </children>
+            </node>
+            <node id="OnUsePeaceActions">
+              <children>
+                <node id="Action">
+                  <attribute id="ActionType" type="int32" value="11"/>
+                  <children>
+                    <node id="Attributes">
+                      <attribute id="Animation" type="FixedString" value=""/>
+                      <attribute id="Conditions" type="LSString" value=""/>
+                      <attribute id="BookId" type="FixedString" value="GIMB_BookTwo_Mountain"/> <!--Comes from our BGL_Books.lsf-->
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+            <node id="OnDestroyActions">
+              <children>
+                <node id="Action">
+                  <attribute id="ActionType" type="int32" value="26"/>
+                  <children>
+                    <node id="Attributes">
+                      <attribute id="Animation" type="FixedString" value=""/>
+                      <attribute id="Conditions" type="LSString" value=""/>
+                      <attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3"/>
+                      <attribute id="PlayOnHUD" type="bool" value="False"/>
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+        <node id="GameObjects">
+          <attribute id="MapKey" type="FixedString" value="c00e544e-7e70-4a3e-97cb-c644028a88ed"/> <!--Used in Objects.txt-->
+          <attribute id="DisplayName" type="TranslatedString" handle="GIMB_BookThree_Title" version="1"/> <!--Comes from our NEWHANDLE1 in loca-->
+          <attribute id="Name" type="LSString" value="GIMB_BookThree_Grief"/>
+          <attribute id="LevelName" type="FixedString" value=""/>
+          <attribute id="Type" type="FixedString" value="item"/>
+          <attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336"/>
+          <attribute id="ReadinessFlags" type="uint32" value="12"/>
+          <!--
+          OPTIONAL! Remove the comments or this whole section
+          book type enum goes from 0-8 list is inside readme
+          <attribute id="BookType" type="uint8" value="8" />
+          -->
+          <attribute id="VisualTemplate" type="FixedString" value="2b6edf0d-5ddc-0f16-b13c-c97b553a2518"/>
+          <children>
+            <node id="Bounds">
+              <children>
+                <node id="Bound">
+                  <attribute id="Type" type="uint8" value="1"/>
+                  <attribute id="Shape" type="uint8" value="1"/>
+                  <attribute id="Min" type="fvec3" value="-0.536167 -0.0410083 -0.304595"/>
+                  <attribute id="Max" type="fvec3" value="0.536167 0.111889 0.30139"/>
+                  <attribute id="Radius" type="float" value="0.312969"/>
+                  <attribute id="Height" type="float" value="0.18436"/>
+                </node>
+                <node id="Bound">
+                  <attribute id="Type" type="uint8" value="2"/>
+                  <attribute id="Shape" type="uint8" value="1"/>
+                  <attribute id="Min" type="fvec3" value="-0.536167 -0.0410083 -0.304595"/>
+                  <attribute id="Max" type="fvec3" value="0.536167 0.111889 0.30139"/>
+                  <attribute id="Radius" type="float" value="0.312969"/>
+                  <attribute id="Height" type="float" value="0.18436"/>
+                </node>
+                <node id="Bound">
+                  <attribute id="Type" type="uint8" value="0"/>
+                  <attribute id="Shape" type="uint8" value="1"/>
+                  <attribute id="Min" type="fvec3" value="-0.2680835 -0.0410083 -0.1522975"/>
+                  <attribute id="Max" type="fvec3" value="0.2680835 0.111889 0.150695"/>
+                  <attribute id="Radius" type="float" value="0.1564845"/>
+                  <attribute id="Height" type="float" value="0.18436"/>
+                </node>
+              </children>
+            </node>
+            <node id="OnUsePeaceActions">
+              <children>
+                <node id="Action">
+                  <attribute id="ActionType" type="int32" value="11"/>
+                  <children>
+                    <node id="Attributes">
+                      <attribute id="Animation" type="FixedString" value=""/>
+                      <attribute id="Conditions" type="LSString" value=""/>
+                      <attribute id="BookId" type="FixedString" value="GIMB_BookThree_Grief"/> <!--Comes from our BGL_Books.lsf-->
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+            <node id="OnDestroyActions">
+              <children>
+                <node id="Action">
+                  <attribute id="ActionType" type="int32" value="26"/>
+                  <children>
+                    <node id="Attributes">
+                      <attribute id="Animation" type="FixedString" value=""/>
+                      <attribute id="Conditions" type="LSString" value=""/>
+                      <attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3"/>
+                      <attribute id="PlayOnHUD" type="bool" value="False"/>
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+        <node id="GameObjects">
+          <attribute id="MapKey" type="FixedString" value="3b89992f-7b85-4943-aaf0-5109227a1aab"/> <!--Used in Objects.txt-->
+          <attribute id="DisplayName" type="TranslatedString" handle="GIMB_BookFour_Title" version="1"/> <!--Comes from our NEWHANDLE1 in loca-->
+          <attribute id="Name" type="LSString" value="GIMB_BookFour_Recognition"/>
+          <attribute id="LevelName" type="FixedString" value=""/>
+          <attribute id="Type" type="FixedString" value="item"/>
+          <attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336"/>
+          <attribute id="ReadinessFlags" type="uint32" value="12"/>
+          <!--
+          OPTIONAL! Remove the comments or this whole section
+          book type enum goes from 0-8 list is inside readme
+          <attribute id="BookType" type="uint8" value="8" />
+          -->
+          <attribute id="VisualTemplate" type="FixedString" value="2b6edf0d-5ddc-0f16-b13c-c97b553a2518"/>
+          <children>
+            <node id="Bounds">
+              <children>
+                <node id="Bound">
+                  <attribute id="Type" type="uint8" value="1"/>
+                  <attribute id="Shape" type="uint8" value="1"/>
+                  <attribute id="Min" type="fvec3" value="-0.536167 -0.0410083 -0.304595"/>
+                  <attribute id="Max" type="fvec3" value="0.536167 0.111889 0.30139"/>
+                  <attribute id="Radius" type="float" value="0.312969"/>
+                  <attribute id="Height" type="float" value="0.18436"/>
+                </node>
+                <node id="Bound">
+                  <attribute id="Type" type="uint8" value="2"/>
+                  <attribute id="Shape" type="uint8" value="1"/>
+                  <attribute id="Min" type="fvec3" value="-0.536167 -0.0410083 -0.304595"/>
+                  <attribute id="Max" type="fvec3" value="0.536167 0.111889 0.30139"/>
+                  <attribute id="Radius" type="float" value="0.312969"/>
+                  <attribute id="Height" type="float" value="0.18436"/>
+                </node>
+                <node id="Bound">
+                  <attribute id="Type" type="uint8" value="0"/>
+                  <attribute id="Shape" type="uint8" value="1"/>
+                  <attribute id="Min" type="fvec3" value="-0.2680835 -0.0410083 -0.1522975"/>
+                  <attribute id="Max" type="fvec3" value="0.2680835 0.111889 0.150695"/>
+                  <attribute id="Radius" type="float" value="0.1564845"/>
+                  <attribute id="Height" type="float" value="0.18436"/>
+                </node>
+              </children>
+            </node>
+            <node id="OnUsePeaceActions">
+              <children>
+                <node id="Action">
+                  <attribute id="ActionType" type="int32" value="11"/>
+                  <children>
+                    <node id="Attributes">
+                      <attribute id="Animation" type="FixedString" value=""/>
+                      <attribute id="Conditions" type="LSString" value=""/>
+                      <attribute id="BookId" type="FixedString" value="GIMB_BookFour_Recognition"/> <!--Comes from our BGL_Books.lsf-->
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+            <node id="OnDestroyActions">
+              <children>
+                <node id="Action">
+                  <attribute id="ActionType" type="int32" value="26"/>
+                  <children>
+                    <node id="Attributes">
+                      <attribute id="Animation" type="FixedString" value=""/>
+                      <attribute id="Conditions" type="LSString" value=""/>
+                      <attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3"/>
+                      <attribute id="PlayOnHUD" type="bool" value="False"/>
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

@@ -1,0 +1,38 @@
+new entry "GIMB_BookOne_Myself"
+type "Object"
+using "OBJ_Book"
+data "RootTemplate" "3bbc59b5-f6f9-479a-8009-8b734aea21b2"
+data "ObjectCategory" "GIMB_Books"
+data "MinAmount" "1"
+data "MaxAmount" "1"
+data "Priority" "1"
+
+
+new entry "GIMB_BookTwo_Mountain"
+type "Object"
+using "OBJ_Book"
+data "RootTemplate" "a29a04d2-0f7d-487d-ad5f-c45c56b20bc4"
+data "ObjectCategory" "GIMB_Books"
+data "MinAmount" "1"
+data "MaxAmount" "1"
+data "Priority" "1"
+
+
+new entry "GIMB_BookThree_Grief"
+type "Object"
+using "OBJ_Book"
+data "RootTemplate" "c00e544e-7e70-4a3e-97cb-c644028a88ed"
+data "ObjectCategory" "GIMB_Books"
+data "MinAmount" "1"
+data "MaxAmount" "1"
+data "Priority" "1"
+
+
+new entry "GIMB_BookFour_Recognition"
+type "Object"
+using "OBJ_Book"
+data "RootTemplate" "3b89992f-7b85-4943-aaf0-5109227a1aab"
+data "ObjectCategory" "GIMB_Books"
+data "MinAmount" "1"
+data "MaxAmount" "1"
+data "Priority" "1"

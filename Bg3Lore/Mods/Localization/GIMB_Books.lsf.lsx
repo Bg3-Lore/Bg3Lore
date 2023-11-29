@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="3" minor="0" revision="0" build="0" lslib_meta="v1,bswap_guids"/>
+  <region id="TranslatedStringKeys">
+    <node id="TranslatedStringKeys">
+      <children>
+        <!--EXAMPLE TEMPLATE-->
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="GIMB_BookOne_Content" value=""/>
+          <attribute id="UUID" type="FixedString" value="GIMB_BookOne_Myself"/> <!-- EX : GTZ_Stardock_D, BGL_Book_A Used inside root template for book-->
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node> 
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="GIMB_BookTwo_Content" value=""/>
+          <attribute id="UUID" type="FixedString" value="GIMB_BookTwo_Mountain"/> <!-- EX : GTZ_Stardock_D, BGL_Book_A Used inside root template for book-->
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node> 
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="GIMB_BookThree_Content" value=""/>
+          <attribute id="UUID" type="FixedString" value="GIMB_BookThree_Grief"/> <!-- EX : GTZ_Stardock_D, BGL_Book_A Used inside root template for book-->
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node> 
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="GIMB_BookFour_Content" value=""/>
+          <attribute id="UUID" type="FixedString" value="GIMB_BookFour_Recognition"/> <!-- EX : GTZ_Stardock_D, BGL_Book_A Used inside root template for book-->
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
+        </node> 
+      </children>
+    </node>
+  </region>
+</save>

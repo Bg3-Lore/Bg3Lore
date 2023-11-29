@@ -12,11 +12,7 @@
           <attribute id="Type" type="FixedString" value="item"/>
           <attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336"/>
           <attribute id="ReadinessFlags" type="uint32" value="12"/>
-          <!--
-          OPTIONAL! Remove the comments or this whole section
-          book type enum goes from 0-8 list is inside readme
-          <attribute id="BookType" type="uint8" value="8" />
-          -->
+          <attribute id="BookType" type="uint8" value="2" />
           <attribute id="VisualTemplate" type="FixedString" value="2b6edf0d-5ddc-0f16-b13c-c97b553a2518"/>
           <children>
             <node id="Bounds">
@@ -86,11 +82,7 @@
           <attribute id="Type" type="FixedString" value="item"/>
           <attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336"/>
           <attribute id="ReadinessFlags" type="uint32" value="12"/>
-          <!--
-          OPTIONAL! Remove the comments or this whole section
-          book type enum goes from 0-8 list is inside readme
-          <attribute id="BookType" type="uint8" value="8" />
-          -->
+          <attribute id="BookType" type="uint8" value="2" />
           <attribute id="VisualTemplate" type="FixedString" value="2b6edf0d-5ddc-0f16-b13c-c97b553a2518"/>
           <children>
             <node id="Bounds">
@@ -160,11 +152,7 @@
           <attribute id="Type" type="FixedString" value="item"/>
           <attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336"/>
           <attribute id="ReadinessFlags" type="uint32" value="12"/>
-          <!--
-          OPTIONAL! Remove the comments or this whole section
-          book type enum goes from 0-8 list is inside readme
-          <attribute id="BookType" type="uint8" value="8" />
-          -->
+          <attribute id="BookType" type="uint8" value="2" />
           <attribute id="VisualTemplate" type="FixedString" value="2b6edf0d-5ddc-0f16-b13c-c97b553a2518"/>
           <children>
             <node id="Bounds">
@@ -234,11 +222,7 @@
           <attribute id="Type" type="FixedString" value="item"/>
           <attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336"/>
           <attribute id="ReadinessFlags" type="uint32" value="12"/>
-          <!--
-          OPTIONAL! Remove the comments or this whole section
-          book type enum goes from 0-8 list is inside readme
-          <attribute id="BookType" type="uint8" value="8" />
-          -->
+          <attribute id="BookType" type="uint8" value="2" />
           <attribute id="VisualTemplate" type="FixedString" value="2b6edf0d-5ddc-0f16-b13c-c97b553a2518"/>
           <children>
             <node id="Bounds">
@@ -277,7 +261,7 @@
                     <node id="Attributes">
                       <attribute id="Animation" type="FixedString" value=""/>
                       <attribute id="Conditions" type="LSString" value=""/>
-                      <attribute id="BookId" type="FixedString" value="GIMB_BookFour_Recognition"/> <!--Comes from our BGL_Books.lsf-->
+                      <attribute id="BookId" type="FixedString" value="BOOKNAME"/> <!--Comes from our BGL_Books.lsf-->
                     </node>
                   </children>
                 </node>

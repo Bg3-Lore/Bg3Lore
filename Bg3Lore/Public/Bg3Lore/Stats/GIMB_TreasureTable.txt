@@ -5,7 +5,5 @@ new subtable "1,1"
 object category "I_GIMB_BookTwo_Mountain" ,1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_GIMB_BookThree_Grief" ,1,0,0,0,0,0,0,0
-
-new treasuretable "LOW_OmeluumSupplies_Reward"
 new subtable "1,1"
 object category "I_GIMB_BookFour_Recognition" ,1,0,0,0,0,0,0,0

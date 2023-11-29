@@ -1,6 +1,18 @@
 TEMPLATES
 Add/Replace these from the default book template to have different world models and icons
 
+PICK ONE HERE
+        <attribute id="BookType" type="uint8" value="8" />
+        
+        0: book
+        1: Sheet
+        2: Sheet Stack
+        3 and 4: Scroll
+        5-7: Tablet
+        8: Gith disc thing
+
+THEN ADD/REPLACE THESE
+
 SINGLE SHEET:
 <attribute id="ParentTemplateId" type="FixedString" value="61b98c74-8f5c-4d05-b56c-0911b59c9078" />
 <attribute id="PhysicsTemplate" type="FixedString" value="94ca09da-30c5-43be-620e-caf0a979e543" />
@@ -25,3 +37,4 @@ FROG THING:
 <attribute id="ParentTemplateId" type="FixedString" value="23f65dff-a1ca-42fb-91ee-4cbb69450336" />
 <attribute id="PhysicsTemplate" type="FixedString" value="199ad1d2-8c0a-3e8d-f269-626702eaefbe" />
 <attribute id="VisualTemplate" type="FixedString" value="65b2f2a7-0398-dcfe-12c0-a3337062f48b" />
+

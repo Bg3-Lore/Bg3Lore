@@ -73,6 +73,13 @@
           <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
           <attribute id="ExtraData" type="LSString" value=""/>
           <attribute id="Stub" type="bool" value="False"/>
+        </node> 
+        <node id="TranslatedStringKey">
+          <attribute id="Content" type="TranslatedString" handle="h65078ef7g445dg4e88g8907gec8edc34e200" value=""/>
+          <attribute id="UUID" type="FixedString" value="Trips_Cress_01"/> <!-- EX : GTZ_Stardock_D, BGL_Book_A Used inside root template for book-->
+          <attribute id="Speaker" type="FixedString" value="NOTUSED"/>
+          <attribute id="ExtraData" type="LSString" value=""/>
+          <attribute id="Stub" type="bool" value="False"/>
         </node>        
 
         <!--EXAMPLE TEMPLATE-->

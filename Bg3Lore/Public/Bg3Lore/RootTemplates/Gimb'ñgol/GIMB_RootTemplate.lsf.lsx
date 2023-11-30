@@ -261,7 +261,7 @@
                     <node id="Attributes">
                       <attribute id="Animation" type="FixedString" value=""/>
                       <attribute id="Conditions" type="LSString" value=""/>
-                      <attribute id="BookId" type="FixedString" value="BOOKNAME"/> <!--Comes from our BGL_Books.lsf-->
+                      <attribute id="BookId" type="FixedString" value="GIMB_BookFour_Recognition"/> <!--Comes from our BGL_Books.lsf-->
                     </node>
                   </children>
                 </node>

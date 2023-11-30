@@ -1,0 +1,1 @@
+Ext.Require("Server/Bg3Lore.lua")

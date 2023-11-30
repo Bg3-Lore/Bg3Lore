@@ -1,6 +1,6 @@
 new treasuretable "UNQ_BGL_Books"
 new subtable "1,1"
-object category "BGL_Diaries" ,1,0,0,0,0,0,0,0
+object category "BGL_Diaries",1,0,0,0,0,0,0,0
 
 new treasuretable "UniqueBooks"
 new subtable "1,1"
@@ -9,7 +9,7 @@ object category "T_UNQ_BGL_Books",1,0,0,0,0,0,0,0
 new treasuretable "DEN_Entrance_Trade"
 CanMerge 1
 new subtable "1,1"
-object category "T_UNQ_BGL_Books" ,1,0,0,0,0,0,0,0
+object category "T_UNQ_BGL_Books",1,0,0,0,0,0,0,0
 
 new treasuretable "LOW_SorcerousSundries_Trade"
 CanMerge 1

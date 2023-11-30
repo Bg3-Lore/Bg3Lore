@@ -1,6 +1,10 @@
 new treasuretable "UNQ_BGL_Books"
 new subtable "1,1"
 object category "BGL_Diaries",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_GIMB_BookOne_Myself" ,1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_GIMB_BookTwo_Mountain" ,1,0,0,0,0,0,0,0
 
 new treasuretable "UniqueBooks"
 new subtable "1,1"

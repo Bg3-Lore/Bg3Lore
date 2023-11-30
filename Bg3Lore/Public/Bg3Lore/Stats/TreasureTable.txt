@@ -1,43 +1,41 @@
-new treasuretable "UNQ_BGL_BOOKS_TT"
-new subtable "0,99;1,1"
+new treasuretable "UNQ_BGL_Books"
+new subtable "1,1"
 object category "BGL_DIARY" ,1,0,0,0,0,0,0,0
 
-
+new treasuretable "UniqueBooks"
+new subtable "1,1"
+object category "T_UNQ_BGL_Books",1,0,0,0,0,0,0,0
 
 new treasuretable "DEN_Entrance_Trade"
 CanMerge 1
 new subtable "1,1"
-object category "T_UNQ_BGL_BOOKS_TT" ,1,0,0,0,0,0,0,0
+object category "T_UNQ_BGL_Books" ,1,0,0,0,0,0,0,0
 
 new treasuretable "LOW_SorcerousSundries_Trade"
 CanMerge 1
 new subtable "1,1"
-object category "T_UNQ_BGL_BOOKS_TT" ,1,0,0,0,0,0,0,0
+object category "T_UNQ_BGL_Books" ,1,0,0,0,0,0,0,0
 
 new treasuretable "GEN_Book_Gods"
 CanMerge 1
-new subtable "0,9;1,1"
-object category "I_BGL_BOOKNAME" ,1,0,0,0,0,0,0,0
 new subtable "1,1"
-object category "T_UNQ_BGL_BOOKS_TT" ,1,0,0,0,0,0,0,0
+object category "T_UNQ_BGL_Books" ,1,0,0,0,0,0,0,0
 
 new treasuretable "GEN_Book_History"
 CanMerge 1
-new subtable "0,9;1,1"
-object category "I_BGL_BOOKNAME" ,1,0,0,0,0,0,0,0
 new subtable "1,1"
-object category "T_UNQ_BGL_BOOKS_TT" ,1,0,0,0,0,0,0,0
+object category "T_UNQ_BGL_Books" ,1,0,0,0,0,0,0,0
 
 new treasuretable "GEN_Book_Planes"
 CanMerge 1
-new subtable "0,9;1,1"
-object category "I_BGL_BOOKNAME" ,1,0,0,0,0,0,0,0
 new subtable "1,1"
-object category "T_UNQ_BGL_BOOKS_TT" ,1,0,0,0,0,0,0,0
+object category "T_UNQ_BGL_Books" ,1,0,0,0,0,0,0,0
 
 new treasuretable "GEN_Book_Uncommon_Races"
 CanMerge 1
-new subtable "0,9;1,1"
-object category "I_BGL_BOOKNAME" ,1,0,0,0,0,0,0,0
 new subtable "1,1"
-object category "T_UNQ_BGL_BOOKS_TT" ,1,0,0,0,0,0,0,0
+object category "T_UNQ_BGL_Books" ,1,0,0,0,0,0,0,0
+
+
+//new subtable "0,9;1,1"
+//object category "I_BGL_BOOKNAME" ,1,0,0,0,0,0,0,0

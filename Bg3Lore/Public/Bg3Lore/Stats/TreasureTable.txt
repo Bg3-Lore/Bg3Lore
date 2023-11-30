@@ -1,6 +1,6 @@
 new treasuretable "UNQ_BGL_Books"
 new subtable "1,1"
-object category "BGL_DIARY" ,1,0,0,0,0,0,0,0
+object category "BGL_Diaries" ,1,0,0,0,0,0,0,0
 
 new treasuretable "UniqueBooks"
 new subtable "1,1"

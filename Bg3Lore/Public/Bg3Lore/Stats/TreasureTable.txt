@@ -20,8 +20,8 @@ new subtable "0,9;1,1"
 object category "I_BGL_BOOKNAME" ,1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "T_UNQ_BGL_BOOKS_TT" ,1,0,0,0,0,0,0,0
-new treasuretable "GEN_Book_History"
 
+new treasuretable "GEN_Book_History"
 CanMerge 1
 new subtable "0,9;1,1"
 object category "I_BGL_BOOKNAME" ,1,0,0,0,0,0,0,0

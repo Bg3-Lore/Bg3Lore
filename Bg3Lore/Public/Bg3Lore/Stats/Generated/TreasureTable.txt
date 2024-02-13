@@ -41,6 +41,8 @@ new subtable "-1"
 object category "I_GIMB_BookThree_Grief" ,1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_GIMB_BookFour_Recognition" ,1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_GIMB_BookFive_Scoop" ,1,0,0,0,0,0,0,0
 
 
 // In-world vendors, in rough order of acts 1-3

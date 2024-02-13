@@ -35,4 +35,14 @@ data "RootTemplate" "3b89992f-7b85-4943-aaf0-5109227a1aab"
 data "ObjectCategory" "GIMB_Books"
 data "MinAmount" "1"
 data "MaxAmount" "1"
+data "Priority" "1"70fe8f8f-0110-4ed7-b140-cb9ff325c6b1
+
+
+new entry "GIMB_BookFive_Scoop"
+type "Object"
+using "OBJ_Book"
+data "RootTemplate" "70fe8f8f-0110-4ed7-b140-cb9ff325c6b1"
+data "ObjectCategory" "GIMB_Books"
+data "MinAmount" "1"
+data "MaxAmount" "1"
 data "Priority" "1"
